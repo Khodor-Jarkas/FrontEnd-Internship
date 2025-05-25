@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khodor El Jarkas | Game Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">KJ</a>
+                <div class="nav-links">
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            
+            <div class="hero">
+                <h1 class="hero-title">
+                    <span>Design.</span>
+                    <span>Develop.</span>
+                    <span>Deliver.</span>
+                </h1>
+                <p class="hero-subtitle">I craft digital experiences that are beautiful, functional, and user-focused.</p>
+                <a href="#work" class="cta-button">View My Work <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="work" class="section work-section">
+        <div class="container">
+            <h2 class="section-title">Selected Projects</h2> <!-- these projects are not real if you can't tell, there just to show how to do it.-->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>UI/UX Design, Frontend Development</p>
+                        <a href="#" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mobile App Design</h3>
+                        <p>Product Design, User Research</p>
+                        <a href="#" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Brand Identity</h3>
+                        <p>Visual Design, Brand Strategy</p>
+                        <a href="#" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="" alt="Khodor El Jarkas">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I'm an aspiring game designer and developer with 1+ years of experience creating digital products that users love. My approach combines aesthetic sensibility with technical expertise.</p>
+                    <p>Previously at <strong>Basket Games</strong> and currently at <strong>BlackStar</strong>, helping build their digital presence through thoughtful design and robust development.</p>
+                    <div class="skills">
+                        <span>UI/UX Design</span> <!-- created a HUD and every other UI for multiple games, reach out for pics if you want-->
+                        <span>Frontend Development</span> <!-- hopefully in web2 ill have more experience-->
+                        <span>Game Design</span> <!-- programming in luau, map design, character design, balancing, etc.-->
+                        <span>Dev Ops</span> <!-- git counts i guess? -->
+                        <span>Project Management</span> <!-- I am never doing this again unless im paid a lot-->
+                    </div>
+                    <a href="#" class="cta-button secondary">Download Resume</a> <!-- i dont know how to make you download it, no time to figure it out-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-subtitle">Have a project in mind or want to discuss potential opportunities? I'd love to hear from you.</p> <!-- idk what to put here i just copied someone-->
+            
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ikhodorjarkas@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Sidon, LB</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/kjdev/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Khodor-Jarkas"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">KJ</a>
+                <p>© 2025 Khodor El JArkas. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
